@@ -4,7 +4,7 @@ The Node server files are then copied to the image's usr/app working directory.
 
 
 ## How To Build & Run Locally
-Make sure that you have Docker installed on your local machine
+Make sure that you have Docker installed on your local machine   
 First, clone the repo to your local machine:
 ```
 git clone https://github.com/mohamedzeina/simpleweb.git
