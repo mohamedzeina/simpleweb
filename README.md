@@ -15,7 +15,7 @@ docker build -t {docker-username}/{project-name} .
 ```
 Then, run the docker image  in a container using the following command to ensure port mapping:
 ```
-docker run -p 8080:8080 {docker-username}/{project-name} .
+docker run -p 8080:8080 {docker-username}/{project-name} 
 ```
 
 
