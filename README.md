@@ -11,11 +11,11 @@ git clone https://github.com/mohamedzeina/simpleweb.git
 ```
 Then, open up a terminal in the project's directory and build the docker image using the following command with your docker username and a project name of your choice:
 ```
-docker build -t {docker-username}/{project-name}
+docker build -t {docker-username}/{project-name} .
 ```
 Then, run the docker image  in a container using the following command to ensure port mapping:
 ```
-docker run -p 8080:8080 {docker-username}/{project-name}
+docker run -p 8080:8080 {docker-username}/{project-name} .
 ```
 
 
