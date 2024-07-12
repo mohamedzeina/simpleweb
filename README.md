@@ -9,7 +9,11 @@ First, clone the repo to your local machine:
 ```
 git clone https://github.com/mohamedzeina/simpleweb.git
 ```
-Then, open up a terminal in the project's directory and build the docker image using the following command with your docker username and a project name of your choice:
+Then move into the project's directory:
+```
+cd simpleweb
+```
+Then, build the docker image using the following command with your docker username and a project name of your choice:
 ```
 docker build -t {docker-username}/{project-name} .
 ```
@@ -17,6 +21,9 @@ Then, run the docker image  in a container using the following command to ensure
 ```
 docker run -p 8080:8080 {docker-username}/{project-name} 
 ```
+Then, open http://localhost:8080 with your browser to see the result
+
+Note: you should drop the {} when writing the docker-username and project-name
 
 
 
